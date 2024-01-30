@@ -1,0 +1,10 @@
+*{
+  margin: 0px;
+  background-color: #FFF;
+}
+#root {
+  box-sizing: border-box;
+  margin: 0px auto;
+  height: calc( 100dvh );
+  text-align: center;
+}

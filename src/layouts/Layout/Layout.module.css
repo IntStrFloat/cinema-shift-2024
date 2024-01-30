@@ -1,0 +1,29 @@
+.layout{
+    width: 100%;
+    height: 84px;
+}
+div {
+    color: var(--Text-Secondary, #344051);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.header {
+    display: grid;
+    max-width: 960px;
+    margin: 0 auto;
+    gap: 32px;
+    grid-template-columns: auto auto auto 1fr;
+    align-items: center;
+    padding: 22px 0;    
+}
+.exit{
+    display: flex;
+    justify-self: flex-end;
+    gap: 16px;
+    text-align: end;
+}
+.hr {
+    border-bottom: 1px solid #CED2DA;
+}

@@ -1,0 +1,19 @@
+.button {
+    cursor: pointer;
+    padding: 16px 32px;
+    color: var(--Text-Invert, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+.primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: var(--Btn-radius, 16px);
+    background: var(--BG-Brand, #9534D2);   
+    border: none;
+}

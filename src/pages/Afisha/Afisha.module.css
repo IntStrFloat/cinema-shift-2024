@@ -1,0 +1,18 @@
+.wrapper{
+    box-sizing: border-box;
+    max-width: 960px;
+    margin: 48px auto;
+
+}
+.wrapper h1 {
+    margin: 0 auto;
+    width: 928px;
+    color: var(--Text-Primary, #141C24);
+    /* Title/H2 */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    margin-bottom: 16px;
+}
